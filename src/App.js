@@ -1,24 +1,25 @@
 import React from 'react';
 import './App.css'
 import Login from './Components/Login'
-
-const click = () => {
-    // console.log(1);
-        
-         <Login />
-            console.log(1)
-           
-}
+import Typinginput from './Components/Typinginput';
 
 
 const App = () =>{
+    const click = () => {
+        
+    }
     return (
-        <div className='header'> 
-            <h3>TypeCat</h3>
-            <button onClick={click}>Signup</button>
+        <div>
+            <div className='header'> 
+                <h3>TypeCat</h3>
+                <button onClick={click}>Signup</button>
+            </div>
             {/* <Login /> */}
+            <Typinginput />
         </div>
     )
 }
+
+
 
 export default App;
