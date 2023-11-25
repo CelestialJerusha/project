@@ -3,15 +3,15 @@ import './index.css'
 
 
 const Typinginput = () =>{
-    // function click15(){
-    //     console.log(15);
-    // }
-    // function click30(){
-    //     console.log(30);
-    // }
-    // function click50(){
-    //     console.log(50);
-    // }
+    function click15(){
+        console.log(15);
+    }
+    function click30(){
+        console.log(30);
+    }
+    function click50(){
+        console.log(50);
+    }
     return(
         <div>
             <div className="top">
